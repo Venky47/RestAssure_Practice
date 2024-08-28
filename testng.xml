@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/RestAssure_ONE/src/test/java/apiChaining">
+        <classes>
+            <class name="apiChaining.CreateUserTest">
+                <methods>
+                    <include name="createUser"/>
+                </methods>
+            </class>
+            <class name="apiChaining.GetUserTest">
+                <methods>
+                    <include name="getUser"/>
+                </methods>
+            </class>
+            <class name="apiChaining.UpdateUserTest">
+                <methods>
+                    <include name="updateuser"/>
+                </methods>
+            </class>
+            <class name="apiChaining.DeleteUserTest">
+                <methods>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
